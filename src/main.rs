@@ -16,7 +16,7 @@ mod os{
         let mut v = Vec::new();
         
         for path in fs::read_dir(path).unwrap() {
-            v.push(path.unwrap().path());
+            v.push(path.unwrap().path()); //.map()
         }
         
         return v
@@ -25,7 +25,7 @@ mod os{
     
     /// Соеденение путей PathBuf + [Путь 1, Путь 2, Путь 3]
     pub fn path_join(path: PathBuf, dir: Vec<&str>) -> PathBuf {
-        let mut p = path;
+        let mut p = path;   //.map()
         for d in dir{
             p = p.join(d)
         }
