@@ -1,0 +1,14 @@
+[package]
+name = "os"
+version = "0.1.0"
+edition = "2021"
+description = "Python os like lib"
+license = ""
+homepage = ""
+repository = ""
+documentation = ""
+readme = ""
+categories = [""]
+keywords = [""]
+
+[dependencies]
