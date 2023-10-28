@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["getcwd","listdir","name","path_join","path_parent"]};
